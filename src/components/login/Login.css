@@ -1,0 +1,77 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  height: 100vh;
+  padding-right: 5rem;
+}
+
+.form {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  justify-items: flex-start;
+  border-radius: 10px;
+  padding: 50px;
+  /* box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.7); */
+  /* align-items: center; */
+}
+
+input[type="text"],
+input[type="password"] {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  width: 300px;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+.button {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 7px;
+  padding: 0.5rem;
+  padding-left: 7.5rem;
+  padding-right: 7.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: rgb(0, 117, 57);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.eye-slash {
+  display: inline;
+  width: 5%;
+  margin-left: -1%;
+}
+
+.eye-icon {
+  cursor: pointer;
+  opacity: 50%;
+}
+
+.password-toggle-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+  cursor: pointer;
+}
+
+.input-container {
+  position: relative;
+}
+
+h1 {
+  color: rgb(0, 117, 57);
+  font-size: medium;
+}
+
+h2 {
+  color: rgb(0, 117, 57);
+  font-size: small;
+  opacity: 70%;
+}
